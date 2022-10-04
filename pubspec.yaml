@@ -72,6 +72,8 @@ dependencies:
       url: https://github.com/DanhDue/d3f_inapp_purchase.git
       ref: develop
 
+  get: ^4.6.5
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
