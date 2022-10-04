@@ -141,6 +141,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
+  d3f_shared:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: develop
+      resolved-ref: ea755519548b3effc2648609a1c6353c7bd526b7
+      url: "https://github.com/DanhDue/d3f_shared.git"
+    source: git
+    version: "1.0.0+1"
   dbus:
     dependency: transitive
     description:

@@ -1,3 +1,3 @@
 library dependency_manager;
 
-export '';
+export 'package:d3f_shared/shared.dart';
