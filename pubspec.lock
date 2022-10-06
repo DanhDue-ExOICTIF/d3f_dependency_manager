@@ -262,7 +262,7 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: "5235f1b0246bd33972eee3d525d0fc756c2aff94"
+      resolved-ref: e4780d1c167d8fcba5195e732cf05a7458e446e1
       url: "https://github.com/DanhDue/d3f_login.git"
     source: git
     version: "1.0.0+1"
@@ -296,6 +296,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.6"
+  equatable:
+    dependency: "direct main"
+    description:
+      name: equatable
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.5"
   fake_async:
     dependency: transitive
     description:
