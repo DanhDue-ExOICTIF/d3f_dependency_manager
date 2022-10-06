@@ -262,7 +262,7 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: e4780d1c167d8fcba5195e732cf05a7458e446e1
+      resolved-ref: d72e98ed7d3c3a86ae9870370fc567433b56a31d
       url: "https://github.com/DanhDue/d3f_login.git"
     source: git
     version: "1.0.0+1"
