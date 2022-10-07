@@ -288,7 +288,7 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: ecafbb1f97f920941937b7f3a2ddc23dc88d5773
+      resolved-ref: c7521bfc486fac633ca4dd66cf3da12aaf82dc6f
       url: "https://github.com/DanhDue/d3f_inapp_purchase.git"
     source: git
     version: "1.0.0+1"
