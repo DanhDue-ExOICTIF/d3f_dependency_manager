@@ -22,6 +22,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.7.0"
+  ansicolor:
+    dependency: transitive
+    description:
+      name: ansicolor
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.1"
   archive:
     dependency: transitive
     description:
@@ -120,6 +127,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.2.1"
+  charcode:
+    dependency: transitive
+    description:
+      name: charcode
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.3.1"
   checked_yaml:
     dependency: transitive
     description:
@@ -127,6 +141,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
+  cli_menu:
+    dependency: transitive
+    description:
+      name: cli_menu
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.3"
+  cli_util:
+    dependency: transitive
+    description:
+      name: cli_util
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.0"
   clock:
     dependency: transitive
     description:
@@ -169,6 +197,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.16.0"
+  color:
+    dependency: transitive
+    description:
+      name: color
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.0"
   connectivity_plus:
     dependency: "direct main"
     description:
@@ -244,7 +279,7 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: "02360f387497d422d638f2f1c6e477a05f4a9600"
+      resolved-ref: "653d971f8352b0d6a9ca1fcc98a3efd7bb30981e"
       url: "https://github.com/DanhDue/d3f_core.git"
     source: git
     version: "1.0.0+1"
@@ -262,8 +297,17 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: d72e98ed7d3c3a86ae9870370fc567433b56a31d
+      resolved-ref: "39232d311d0a43d00324964e6a302cacfb9d9366"
       url: "https://github.com/DanhDue/d3f_login.git"
+    source: git
+    version: "1.0.0+1"
+  d3f_networking:
+    dependency: transitive
+    description:
+      path: "."
+      ref: develop
+      resolved-ref: cce034cc7a8a2d6b7161b2609f2fe8748f1ced61
+      url: "https://github.com/DanhDue/d3f_networking.git"
     source: git
     version: "1.0.0+1"
   d3f_shared:
@@ -271,7 +315,7 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: "07b5ae74466aaff4b50493f4a5067d3527a511e6"
+      resolved-ref: c64349884292967eb82af2fd4aa39bb800b3588c
       url: "https://github.com/DanhDue/d3f_shared.git"
     source: git
     version: "1.0.0+1"
@@ -282,6 +326,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.2.4"
+  dartx:
+    dependency: transitive
+    description:
+      name: dartx
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.1.0"
   dbus:
     dependency: transitive
     description:
@@ -364,6 +415,20 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_gen_core:
+    dependency: transitive
+    description:
+      name: flutter_gen_core
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "5.0.1"
+  flutter_gen_runner:
+    dependency: "direct dev"
+    description:
+      name: flutter_gen_runner
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "5.0.1"
   flutter_hooks:
     dependency: "direct main"
     description:
@@ -479,6 +544,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.6.5"
+  get_cli:
+    dependency: "direct dev"
+    description:
+      name: get_cli
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.30"
   glob:
     dependency: transitive
     description:
@@ -521,6 +593,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.15.0"
+  http:
+    dependency: transitive
+    description:
+      name: http
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.13.5"
   http_mock_adapter:
     dependency: "direct main"
     description:
@@ -759,6 +838,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.2.4"
+  process_run:
+    dependency: transitive
+    description:
+      name: process_run
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.12.3+2"
   pub_semver:
     dependency: transitive
     description:
@@ -773,6 +859,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.2.1"
+  recase:
+    dependency: transitive
+    description:
+      name: recase
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.1"
   rxdart:
     dependency: "direct main"
     description:
@@ -855,6 +948,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.1"
+  synchronized:
+    dependency: transitive
+    description:
+      name: synchronized
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.0+3"
   term_glyph:
     dependency: transitive
     description:
@@ -869,6 +969,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.4.12"
+  time:
+    dependency: transitive
+    description:
+      name: time
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.3"
   timezone:
     dependency: transitive
     description:
