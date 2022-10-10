@@ -24,6 +24,26 @@ dependencies:
   flutter:
     sdk: flutter
 
+  d3f_shared:
+    git:
+      url: https://github.com/DanhDue/d3f_shared.git
+      ref: develop
+
+  d3f_core:
+    git:
+      url: https://github.com/DanhDue/d3f_core.git
+      ref: develop
+
+  d3f_login:
+    git:
+      url: https://github.com/DanhDue/d3f_login.git
+      ref: develop
+
+  d3f_inapp_purchase:
+    git:
+      url: https://github.com/DanhDue/d3f_inapp_purchase.git
+      ref: develop
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
@@ -51,29 +71,9 @@ dependencies:
   connectivity_plus: ^2.3.7
   flutter_local_notifications: ^11.0.1
   flutter_native_timezone: ^2.0.0
-
-  d3f_shared:
-    git:
-      url: https://github.com/DanhDue/d3f_shared.git
-      ref: develop
-
-  d3f_core:
-    git:
-      url: https://github.com/DanhDue/d3f_core.git
-      ref: develop
-
-  d3f_login:
-    git:
-      url: https://github.com/DanhDue/d3f_login.git
-      ref: develop
-
-  d3f_inapp_purchase:
-    git:
-      url: https://github.com/DanhDue/d3f_inapp_purchase.git
-      ref: develop
-
   get: ^4.6.5
   equatable: ^2.0.5
+  theme_tailor_annotation: ^1.0.3
 
 dev_dependencies:
   flutter_test:
@@ -89,6 +89,7 @@ dev_dependencies:
   freezed: ^2.1.0+1
   get_cli: ^0.2.30
   flutter_gen_runner: ^5.0.1
+  theme_tailor: ^1.0.6
 
 flutter:
 

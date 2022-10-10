@@ -288,7 +288,7 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: c7521bfc486fac633ca4dd66cf3da12aaf82dc6f
+      resolved-ref: efa483ca553b11afd81376182c254dfc1c4ba9fd
       url: "https://github.com/DanhDue/d3f_inapp_purchase.git"
     source: git
     version: "1.0.0+1"
@@ -297,7 +297,7 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: "39232d311d0a43d00324964e6a302cacfb9d9366"
+      resolved-ref: "0e5af380bf6eed66910a53ba48d69377a14dd582"
       url: "https://github.com/DanhDue/d3f_login.git"
     source: git
     version: "1.0.0+1"
@@ -969,6 +969,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.4.12"
+  theme_tailor:
+    dependency: "direct dev"
+    description:
+      name: theme_tailor
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.6"
+  theme_tailor_annotation:
+    dependency: "direct main"
+    description:
+      name: theme_tailor_annotation
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.3"
   time:
     dependency: transitive
     description:
