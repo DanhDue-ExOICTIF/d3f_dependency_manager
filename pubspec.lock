@@ -343,7 +343,7 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: c64349884292967eb82af2fd4aa39bb800b3588c
+      resolved-ref: f594d11eab6582af41dadce1fce0e9850ada0d25
       url: "https://github.com/DanhDue/d3f_shared.git"
     source: git
     version: "1.0.0+1"
