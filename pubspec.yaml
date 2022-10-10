@@ -74,6 +74,7 @@ dependencies:
   get: ^4.6.5
   equatable: ^2.0.5
   theme_tailor_annotation: ^1.0.3
+  fluttertoast: ^8.0.9
 
 dev_dependencies:
   flutter_test:
