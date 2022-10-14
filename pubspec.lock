@@ -307,7 +307,7 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: "653d971f8352b0d6a9ca1fcc98a3efd7bb30981e"
+      resolved-ref: "2f480047d7d03a62e19fb529c28c1a76dfa54ae4"
       url: "https://github.com/DanhDue-ExOICTIF/d3f_core.git"
     source: git
     version: "1.0.0+1"
@@ -316,7 +316,7 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: "1aa6809183869d7307389d49e7f82327aac2634c"
+      resolved-ref: deb37ed81a6f6c10a3dadca7c87cf8d9f5718fcf
       url: "https://github.com/DanhDue-ExOICTIF/d3f_inapp_purchase.git"
     source: git
     version: "1.0.0+1"
@@ -325,7 +325,7 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: "2038072a352b797756cd41a11f544eb727af632f"
+      resolved-ref: a3ed2638945697fe8713e84717d70ee9e5c5e8ae
       url: "https://github.com/DanhDue-ExOICTIF/d3f_login.git"
     source: git
     version: "1.0.0+1"
@@ -334,8 +334,8 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: cce034cc7a8a2d6b7161b2609f2fe8748f1ced61
-      url: "https://github.com/DanhDue/d3f_networking.git"
+      resolved-ref: de38f2b5113a95191c4f6f9e90847218146ad331
+      url: "https://github.com/DanhDue-ExOICTIF/d3f_networking.git"
     source: git
     version: "1.0.0+1"
   d3f_shared:
@@ -343,7 +343,7 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: "5d538e917f2e79b7d24b888ec342b84a07c23c80"
+      resolved-ref: "4a47b0d44d7695a70b70adc9dfb0cdbad14a4552"
       url: "https://github.com/DanhDue-ExOICTIF/d3f_shared.git"
     source: git
     version: "1.0.0+1"
