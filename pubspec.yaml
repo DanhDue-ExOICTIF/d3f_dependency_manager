@@ -82,6 +82,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  test: ^1.21.4
   # because all runners need to add directly to each module.
   # So we have to modify manual dev_dependencies for each module here
   # And cannot sync all of this via d3f_dependency_manager module.
