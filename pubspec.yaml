@@ -1,52 +1,11 @@
 name: d3f_dependency_manager
-description: d3f_dependency_manager.
-publish_to: none
-
-# The following defines the version and build number for your application.
-# A version number is three numbers separated by dots, like 1.2.43
-# followed by an optional build number separated by a +.
-# Both the version and the builder number may be overridden in flutter
-# build by specifying --build-name and --build-number, respectively.
-# In Android, build-name is used as versionName while build-number used as versionCode.
-# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
-# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
-# Read more about iOS versioning at
-# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-#
-# This version is used _only_ for the Runner app, which is used if you just do
-# a `flutter run` or a `flutter make-host-app-editable`. It has no impact
-# on any other native host app that you embed your Flutter project into.
 version: 1.0.0+1
+publish_to: none
+description: d3f_dependency_manager.
+environment: 
+  sdk: '>=2.16.2 <3.0.0'
 
-environment:
-  sdk: ">=2.16.2 <3.0.0"
-
-dependencies:
-  flutter:
-    sdk: flutter
-
-  d3f_shared:
-    git:
-      url: https://github.com/DanhDue-ExOICTIF/d3f_shared.git
-      ref: develop
-
-  d3f_core:
-    git:
-      url: https://github.com/DanhDue-ExOICTIF/d3f_core.git
-      ref: develop
-
-  d3f_login:
-    git:
-      url: https://github.com/DanhDue-ExOICTIF/d3f_login.git
-      ref: develop
-
-  d3f_inapp_purchase:
-    git:
-      url: https://github.com/DanhDue-ExOICTIF/d3f_inapp_purchase.git
-      ref: develop
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+dependencies: 
   cupertino_icons: ^1.0.2
   fimber: ^0.6.6
   flutter_hooks: ^0.18.5+1
@@ -78,15 +37,28 @@ dependencies:
   fluttertoast: ^8.0.9
   cached_network_image: ^3.2.2
   carousel_slider: ^4.1.1
-
-dev_dependencies:
-  flutter_test:
+  flutter: 
     sdk: flutter
+  d3f_shared: 
+    git: 
+      url: https://github.com/DanhDue-ExOICTIF/d3f_shared.git
+      ref: develop
+  d3f_core: 
+    git: 
+      url: https://github.com/DanhDue-ExOICTIF/d3f_core.git
+      ref: develop
+  d3f_login: 
+    git: 
+      url: https://github.com/DanhDue-ExOICTIF/d3f_login.git
+      ref: develop
+  d3f_inapp_purchase: 
+    git: 
+      url: https://github.com/DanhDue-ExOICTIF/d3f_inapp_purchase.git
+      ref: develop
+
+dev_dependencies: 
   flutter_lints: ^2.0.0
   test: ^1.21.4
-  # because all runners need to add directly to each module.
-  # So we have to modify manual dev_dependencies for each module here
-  # And cannot sync all of this via d3f_dependency_manager module.
   flutter_native_splash: ^2.2.10+1
   build_runner: ^2.2.1
   json_serializable: ^6.4.1
@@ -95,20 +67,13 @@ dev_dependencies:
   get_cli: ^0.2.30
   flutter_gen_runner: ^5.0.1
   theme_tailor: ^1.0.6
+  flutter_test: 
+    sdk: flutter
 
-flutter:
-
-  uses-material-design: true
-  #  assets:
-  #    - packages/d3f_shared/assets/
-
-  # This section identifies your Flutter project as a module meant for
-  # embedding in a native host app.  These identifiers should _not_ ordinarily
-  # be changed after generation - they are used to ensure that the tooling can
-  # maintain consistency when adding or modifying assets and plugins.
-  # They also do not have any bearing on your native host application's
-  # identifiers, which may be completely independent or the same as these.
-  module:
-    androidX: true
+flutter: 
+  module: 
     androidPackage: com.danhdue.d3f_dependency_manager
     iosBundleIdentifier: com.danhdue.d3fDependencyManager
+    androidX: true
+  uses-material-design: true
+
